@@ -1,0 +1,62 @@
+﻿
+
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-image: url('img/CardBack.png');
+}
+
+#container {
+    width: 98%;
+    margin: 2% auto;
+    border: black solid 2px;
+    text-align: center;
+    background-image: url('img/CardBack.png');
+}
+
+header {
+    
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    header h1 {
+        
+        background-color: cornflowerblue;
+        color: black;
+        padding: 5px 16px;
+        margin-top: 10px;
+        
+    }
+
+
+#cards {
+    height: 80%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 130px;
+    grid-gap: 5px;
+}
+
+    #cards > div {
+        border: white solid 2px;
+    }
+
+        #cards > div img {
+            width: 100%;
+            height: 100%;
+        }
+
+button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    margin-top: 10px;
+}
